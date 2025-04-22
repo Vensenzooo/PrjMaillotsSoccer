@@ -1,0 +1,1 @@
+﻿ALTER TABLE [Maillots] ADD ImageUrl  NVARCHAR(255) NULL ; 

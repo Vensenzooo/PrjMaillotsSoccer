@@ -1,0 +1,363 @@
+﻿body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container, .detail-container {
+    max-width: 800px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #444;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btnAjout, .btn-action {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btnAjout:hover, .btn-action:hover {
+    background-color: #0056b3;
+}
+
+.gridview {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.gridview th {
+    background-color: #f8f9fa;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.gridview td {
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.detail-image {
+    text-align: center;
+}
+
+.maillot-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-group {
+    margin-bottom: 15px;
+}
+
+.info-group label {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.info-value {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.text-success {
+    color: #28a745;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+
+.reorder-controls {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-reorder {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-reorder:hover {
+    background-color: #5a6268;
+}
+
+
+.form-container {
+    max-width: 850px;
+    margin: 0 auto;
+    background: linear-gradient(145deg, #ffffff, #f9fafb);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.form-title {
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    color: #6c757d;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: #2563eb;
+        box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+        outline: none;
+    }
+
+.form-control-textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.form-check-input {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-label {
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.btn-action {
+    padding: 0.9rem 1.8rem;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: linear-gradient(145deg, #2563eb, #1e40af);
+    border: none;
+    color: white;
+}
+
+.btn-outline-secondary {
+    border: 2px solid #6c757d;
+    color: #6c757d;
+    background: transparent;
+}
+
+.btn-action:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(145deg, #1e40af, #1e3a8a);
+}
+
+.alert {
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.alert-success {
+    background-color: #d1fae5;
+    color: #047857;
+    border-left: 4px solid #10b981;
+}
+
+.form-section {
+    margin-bottom: 2rem;
+}
+
+.grid-container {
+    margin-top: 3rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    padding: 1rem;
+}
+
+.grid-title {
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.gridview {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .gridview th {
+        background-color: #f8f9fa;
+        color: #2c3e50;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        letter-spacing: 0.5px;
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 2px solid #e9ecef;
+    }
+
+    .gridview td {
+        padding: 1rem;
+        border-bottom: 1px solid #e9ecef;
+        vertical-align: middle;
+    }
+
+    .gridview tr:hover {
+        background-color: #f8f9fa;
+    }
+
+    .gridview .btn {
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .gridview .btn-edit {
+        background-color: #2563eb;
+        color: white;
+        border: none;
+    }
+
+    .gridview .btn-delete {
+        background-color: #ef4444;
+        color: white;
+        border: none;
+    }
+
+    .gridview .btn:hover {
+        opacity: 0.9;
+        transform: translateY(-2px);
+    }
+
+.breadcrumb {
+    background: transparent;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.breadcrumb-item a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+    .breadcrumb-item a:hover {
+        color: #1e40af;
+    }
+
+.breadcrumb-item.active {
+    color: #6c757d;
+    font-weight: 500;
+}
